@@ -16,9 +16,9 @@
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <MajorVersionNr Value="2"/>
-      <BuildNr Value="41"/>
+      <BuildNr Value="42"/>
       <Language Value="0809"/>
-      <StringTable Comments="conatct :: lazKlock&lt;at>keleven.co.uk" CompanyName="www.keleven.co.uk" FileDescription="A timing thingy - the clock with a K" InternalName="lazklock" LegalCopyright="(c) kevin Scott 2012 - 2017" OriginalFilename="klock.exe" ProductName="lazklock" ProductVersion="41"/>
+      <StringTable Comments="conatct :: lazKlock&lt;at>keleven.co.uk" CompanyName="www.keleven.co.uk" FileDescription="A timing thingy - the clock with a K" InternalName="lazklock" LegalCopyright="(c) kevin Scott 2012 - 2017" OriginalFilename="klock.exe" ProductName="lazklock" ProductVersion="42"/>
     </VersionInfo>
     <BuildModes Count="1" Active="Default">
       <Item1 Name="Default" Default="True"/>
@@ -70,10 +70,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="formklock"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="273"/>
-        <CursorPos X="102" Y="308"/>
+        <TopLine Value="1178"/>
+        <CursorPos X="32" Y="1192"/>
         <UsageCount Value="202"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -90,7 +89,8 @@
         <ComponentName Value="frmAbout"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <CursorPos X="6"/>
+        <TopLine Value="52"/>
+        <CursorPos X="33" Y="9"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -171,10 +171,11 @@
         <Filename Value="uklockutils.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="UKlockUtils"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="7"/>
-        <TopLine Value="340"/>
-        <CursorPos X="51" Y="372"/>
-        <UsageCount Value="188"/>
+        <TopLine Value="183"/>
+        <CursorPos X="44" Y="218"/>
+        <UsageCount Value="197"/>
         <Loaded Value="True"/>
       </Unit12>
       <Unit13>
@@ -192,7 +193,7 @@
         <UnitName Value="formReminderInput"/>
         <EditorIndex Value="4"/>
         <CursorPos X="61"/>
-        <UsageCount Value="95"/>
+        <UsageCount Value="104"/>
         <Loaded Value="True"/>
       </Unit14>
       <Unit15>
@@ -200,9 +201,9 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="uOptions"/>
         <EditorIndex Value="8"/>
-        <TopLine Value="372"/>
-        <CursorPos X="100" Y="557"/>
-        <UsageCount Value="71"/>
+        <TopLine Value="563"/>
+        <CursorPos Y="551"/>
+        <UsageCount Value="80"/>
         <Loaded Value="True"/>
       </Unit15>
       <Unit16>
@@ -222,7 +223,7 @@
         <EditorIndex Value="6"/>
         <TopLine Value="100"/>
         <CursorPos X="56" Y="126"/>
-        <UsageCount Value="29"/>
+        <UsageCount Value="38"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit17>
@@ -235,127 +236,123 @@
         <DefaultSyntaxHighlighter Value="XML"/>
       </Unit18>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="29" HistoryIndex="28">
       <Position1>
         <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="82" Column="35" TopLine="51"/>
+        <Caret Line="79" Column="26" TopLine="59"/>
       </Position1>
       <Position2>
         <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="87" Column="21" TopLine="56"/>
+        <Caret Line="82" Column="3" TopLine="62"/>
       </Position2>
       <Position3>
         <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="94" Column="21" TopLine="59"/>
+        <Caret Line="96" Column="3" TopLine="70"/>
       </Position3>
       <Position4>
         <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="90" Column="3" TopLine="64"/>
+        <Caret Line="91" Column="30" TopLine="72"/>
       </Position4>
       <Position5>
         <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="96" Column="3" TopLine="70"/>
+        <Caret Line="93" Column="30" TopLine="74"/>
       </Position5>
       <Position6>
         <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="110" Column="20" TopLine="78"/>
+        <Caret Line="9" Column="76"/>
       </Position6>
       <Position7>
         <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="46" Column="15" TopLine="24"/>
+        <Caret Line="123" Column="3" TopLine="91"/>
       </Position7>
       <Position8>
         <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="93" Column="52" TopLine="67"/>
+        <Caret Line="124" Column="13" TopLine="95"/>
       </Position8>
       <Position9>
         <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="46" Column="38" TopLine="44"/>
+        <Caret Line="126" Column="11" TopLine="95"/>
       </Position9>
       <Position10>
         <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="85" Column="35" TopLine="68"/>
+        <Caret Line="123" TopLine="92"/>
       </Position10>
       <Position11>
         <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="84" Column="35" TopLine="67"/>
+        <Caret Line="87" Column="29" TopLine="76"/>
       </Position11>
       <Position12>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="46" Column="21" TopLine="31"/>
-      </Position12>
-      <Position13>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="92" TopLine="58"/>
-      </Position13>
-      <Position14>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="39" TopLine="5"/>
-      </Position14>
-      <Position15>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="42" TopLine="7"/>
-      </Position15>
-      <Position16>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="79" Column="26" TopLine="59"/>
-      </Position16>
-      <Position17>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="82" Column="3" TopLine="62"/>
-      </Position17>
-      <Position18>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="96" Column="3" TopLine="70"/>
-      </Position18>
-      <Position19>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="91" Column="30" TopLine="72"/>
-      </Position19>
-      <Position20>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="93" Column="30" TopLine="74"/>
-      </Position20>
-      <Position21>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="9" Column="76"/>
-      </Position21>
-      <Position22>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="61" TopLine="70"/>
-      </Position22>
-      <Position23>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="123" Column="3" TopLine="91"/>
-      </Position23>
-      <Position24>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="124" Column="13" TopLine="95"/>
-      </Position24>
-      <Position25>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="126" Column="11" TopLine="95"/>
-      </Position25>
-      <Position26>
-        <Filename Value="formKlock.pas"/>
-        <Caret Line="1306" Column="15" TopLine="1374"/>
-      </Position26>
-      <Position27>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="123" TopLine="92"/>
-      </Position27>
-      <Position28>
-        <Filename Value="formanalogueklock.pas"/>
-        <Caret Line="87" Column="29" TopLine="76"/>
-      </Position28>
-      <Position29>
         <Filename Value="uoptions.pas"/>
         <Caret Line="539" Column="48" TopLine="513"/>
-      </Position29>
-      <Position30>
+      </Position12>
+      <Position13>
         <Filename Value="uoptions.pas"/>
         <Caret Line="112" Column="89" TopLine="100"/>
-      </Position30>
+      </Position13>
+      <Position14>
+        <Filename Value="uklockutils.pas"/>
+        <Caret Line="181" Column="24" TopLine="165"/>
+      </Position14>
+      <Position15>
+        <Filename Value="uklockutils.pas"/>
+        <Caret Line="215" Column="26" TopLine="193"/>
+      </Position15>
+      <Position16>
+        <Filename Value="formAbout.pas"/>
+        <Caret Line="72" Column="44" TopLine="52"/>
+      </Position16>
+      <Position17>
+        <Filename Value="formAbout.pas"/>
+        <Caret Line="9" Column="52"/>
+      </Position17>
+      <Position18>
+        <Filename Value="uklockutils.pas"/>
+        <Caret Line="219" Column="3" TopLine="193"/>
+      </Position18>
+      <Position19>
+        <Filename Value="uklockutils.pas"/>
+        <Caret Line="216" Column="60" TopLine="201"/>
+      </Position19>
+      <Position20>
+        <Filename Value="formKlock.pas"/>
+        <Caret Line="706" TopLine="613"/>
+      </Position20>
+      <Position21>
+        <Filename Value="formKlock.pas"/>
+        <Caret Line="822" Column="44" TopLine="795"/>
+      </Position21>
+      <Position22>
+        <Filename Value="uklockutils.pas"/>
+        <Caret Line="177" Column="64" TopLine="167"/>
+      </Position22>
+      <Position23>
+        <Filename Value="uklockutils.pas"/>
+        <Caret Line="187" TopLine="176"/>
+      </Position23>
+      <Position24>
+        <Filename Value="uklockutils.pas"/>
+        <Caret Line="175" Column="8" TopLine="175"/>
+      </Position24>
+      <Position25>
+        <Filename Value="uklockutils.pas"/>
+        <Caret Line="194" TopLine="179"/>
+      </Position25>
+      <Position26>
+        <Filename Value="uklockutils.pas"/>
+        <Caret Line="186" Column="5" TopLine="183"/>
+      </Position26>
+      <Position27>
+        <Filename Value="uklockutils.pas"/>
+        <Caret Line="202" Column="11" TopLine="183"/>
+      </Position27>
+      <Position28>
+        <Filename Value="uklockutils.pas"/>
+        <Caret Line="197" Column="45" TopLine="180"/>
+      </Position28>
+      <Position29>
+        <Filename Value="uklockutils.pas"/>
+        <Caret Line="194" TopLine="179"/>
+      </Position29>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
@@ -386,6 +383,11 @@
         </Win32>
       </Options>
     </Linking>
+    <Other>
+      <Verbosity>
+        <ShowExecInfo Value="True"/>
+      </Verbosity>
+    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">

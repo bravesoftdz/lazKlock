@@ -172,46 +172,44 @@ procedure doSystemEvent(event: integer);
          2 = Hibernate PC
          3 = log off current user
 
-    NB :: if cross platform, shutdown command would need changing.                                }
+    NB :: if cross platform, shutdown command would need changing.
+
+    It seems that things changed a little in windows 10, a little.
+    The parameters now start with a / and not a -.
+    Aslo, passing parameters with contain spaces seem to br problamatic for lazarus, i gave up.
+    Needs more work to make compatible with older versions of windows, to include a message and
+    make cross platform.
+}
 var
   AProcess: TProcess;
 begin
   AProcess := TProcess.Create(nil);
-
+  with TProcess.Create(nil) do
+    try
+      Executable := 'shutdown';
+      Parameters.Add('/a');
+      Execute;
+    finally
+      Free;
+    end;    //  with TProcess.Create(nil)
   case event of
     0:
-    begin
-      AProcess.Parameters.Add('-s');
-      AProcess.Parameters.Add('"-t 10"');
-      AProcess.Parameters.Add('"-c "Shutting Down PC in 10 Seconds by Klock');
-    end;
+     AProcess.Parameters.Add('/s');
     1:
-    begin
-      AProcess.Parameters.Add('-r');
-      AProcess.Parameters.Add('"-t 10"');
-      AProcess.Parameters.Add('"-c "Restarting PC in 10 Seconds by Klock');
-    end;
+     AProcess.Parameters.Add('/r');
     2:
-    begin
-      AProcess.Parameters.Add('-h');
-      AProcess.Parameters.Add('"-t 10"');
-      AProcess.Parameters.Add('"-c "Hibernate PC in 10 Seconds by Klock');
-    end;
+     AProcess.Parameters.Add('/h');
     3:
-    begin
-      AProcess.Parameters.Add('-l');
-      AProcess.Parameters.Add('"-t 10"');
-      AProcess.Parameters.Add('"-c "Logging off user in 10 Seconds by Klock');
-    end;
+     AProcess.Parameters.Add('/l');
   end;
 
   try
     AProcess.Options := [poWaitOnExit];
     AProcess.Executable := 'shutdown';
     AProcess.Execute;
-  finally
-    AProcess.Free;
-  end;
+   finally
+     AProcess.Free;
+   end;
 
 end;
 
@@ -220,8 +218,8 @@ procedure abortSystemEvent;
 begin
   with TProcess.Create(nil) do
     try
-      Executable := 'shutdown.exe';
-      Parameters.Add('-a');
+      Executable := 'shutdown';
+      Parameters.Add('/a');
       Execute;
     finally
       Free;

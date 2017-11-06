@@ -1,7 +1,7 @@
 object frmMain: TfrmMain
-  Left = 1224
+  Left = 1258
   Height = 260
-  Top = 361
+  Top = 373
   Width = 620
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
@@ -2167,8 +2167,8 @@ object frmMain: TfrmMain
       Height = 130
       Top = 8
       Width = 580
-      ActivePage = TbShtFuzzy
-      TabIndex = 0
+      ActivePage = TbShtEvent
+      TabIndex = 3
       TabOrder = 0
       OnChange = PageControl1Change
       object TbShtFuzzy: TTabSheet
@@ -2655,9 +2655,9 @@ object frmMain: TfrmMain
             TabOrder = 1
             object lblEvent: TLabel
               Left = 16
-              Height = 33
+              Height = 32
               Top = 4
-              Width = 141
+              Width = 140
               Caption = 'Event not set'
               Font.Height = -24
               ParentColor = False
