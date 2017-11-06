@@ -2,19 +2,27 @@ program klock;
 
 {$mode objfpc}{$H+}
 
-uses
-  {$IFDEF UNIX}{$IFDEF UseCThreads}
-  cthreads,
-  {$ENDIF}{$ENDIF}
+uses {$IFDEF UNIX} {$IFDEF UseCThreads}
+  cthreads, {$ENDIF} {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, runtimetypeinfocontrols, lazcontrols, formklock, formAbout, formHelp,
-  formOptions, uFuzzyTime, formLicense, UKlockUtils, formReminderInput,
-  uOptions, formAnalogueKlock;
+  Forms,
+  runtimetypeinfocontrols,
+  lazcontrols,
+  formklock,
+  formAbout,
+  formHelp,
+  formOptions,
+  uFuzzyTime,
+  formLicense,
+  UKlockUtils,
+  formReminderInput,
+  uOptions,
+  formAnalogueKlock;
 
 {$R *.res}
 
 begin
-  Application.Title:='lazKlock';
+  Application.Title := 'lazKlock';
   Application.Initialize;
   Application.CreateForm(TfrmMain, frmMain);
   Application.CreateForm(TfrmOptions, frmOptions);
@@ -25,4 +33,3 @@ begin
   Application.CreateForm(TfrmAnalogueKlock, frmAnalogueKlock);
   Application.Run;
 end.
-

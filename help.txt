@@ -50,15 +50,15 @@ If the application is in the task bar, any display messages
 [i.e. a reminder becoming due] will  be displayed in the minimum window.
 
 
-The status bar contains [after the the time & date] the legend cns.
+The status bar contains [after the time & date] the legend cns.
 The c represents caps lock.
 The n represents Num Lock.
 The S represents Scroll Lock.
 The letter will be upper case if the key is activated, otherwise lower case.
 
-The application contains a options screen [file / Options] which allows various coloursand fonts to be changed.
+The application contains a options screen [file / Options] which allows various colours and fonts to be changed.
 
 
 
 
-Program tested on Windows XP & Windows 7 [both 32 & 64 bit].
+Program tested on Windows 10, now really [both 32 & 64 bit].
